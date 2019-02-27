@@ -6,7 +6,6 @@ class UserController {
   }
 
   async store(req, res) {
-    console.log(req.file)
     const { filename } = req.file
 
     try {
